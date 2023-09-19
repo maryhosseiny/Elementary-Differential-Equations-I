@@ -1,0 +1,6 @@
+% Code to figure out the answer for 3.b:
+f = @(t,y) y.*y-2*t;
+t = -2:0.2:4;          
+y = 0:0.5:1.5; 
+slopefield(f,t,y);
+hw1alpha = 0.6;

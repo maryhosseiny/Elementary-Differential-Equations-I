@@ -1,0 +1,4 @@
+x = 0:0.5:20;
+y = -cos(pi*x)+2;
+plot(x,y)
+savefig('hw1figure1.fig')
